@@ -1,0 +1,33 @@
+{
+    "config": {
+        "alphavantage_api_key": "YOUR_API_KEY",
+        "page2images_api_key": "YOUR_API_KEY",
+        "discord_token": "YOUR_API_KEY",
+        "discord_channel_id": 0,
+        "google_api_key": "YOUR_API_KEY",
+        "google_cx": "YOUR_CX"
+    },
+    "companies":[
+        {
+            "name": "Vinci",
+            "infos": {
+                "boursier.com": "vinci-FR0000125486,FR.html",
+                "alpha_vantage_api": "DG.PAR"
+            }
+        },
+        {
+            "name": "Wallix",
+            "infos": {
+                "boursier.com": "wallix-FR0010131409,FR.html",
+                "alpha_vantage_api": "ALLIX.PAR"
+            }
+        },
+        {
+            "name": "BNP Paribas",
+            "infos": {
+                "boursier.com": "bnp-paribas-FR0000131104,FR.html",
+                "alpha_vantage_api": "BNP.PAR"
+            }
+        }
+    ]
+}

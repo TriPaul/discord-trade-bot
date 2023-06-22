@@ -1,0 +1,12 @@
+schedule
+plotly
+windows-curses
+google_images_search
+git
+https://github.com/twopirllc/AlphaVantageAPI
+discord.py
+pillow
+json
+time
+io
+requests
