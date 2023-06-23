@@ -1,6 +1,8 @@
 # Discord Trade Bot
 
-<img src="bot.png" alt="Bot Logo" width="300" height="200" />
+<div style="text-align: center;">
+  <img src="bot.png" alt="Bot Logo" width="300" height="300" />
+</div>
 
 Welcome to the Discord Trade Bot repository ! This bot is designed to provide users with real-time stock market data directly within their Discord server. It allows users to fetch information about various stocks, including current prices, historical data, and more. This README will guide you through the setup and usage of the Discord Stock Bot.
 
