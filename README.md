@@ -28,7 +28,7 @@ To get started with the Discord Trade Bot, follow these steps:
 6. Generate an API key on Alpha Vantage : 
 ```https://www.alphavantage.co/support/#api-key```
 
-7. Modify the JSON configuration file by adding API keys and companies informations :
+7. Modify the JSON configuration file (settings.json) by adding API keys and companies informations :
 ```
 {
     "config": {
@@ -66,6 +66,6 @@ To get started with the Discord Trade Bot, follow these steps:
 ```
 
 8. Start the bot by running the following command:
-``` python discord_bourse_bot.py```
+``` python bot.py```
 
 
