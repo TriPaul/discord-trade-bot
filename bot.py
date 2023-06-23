@@ -7,7 +7,7 @@ from PIL import Image
 def get_company_logo(company_name):
 
     # Load Google API key and CX from json configuration file
-    with open('bourse.json', 'r') as config_file:
+    with open('settings.json', 'r') as config_file:
         data = json.load(config_file)
     google_api_key = data["config"]["google_api_key"]
     google_cx = data["config"]["google_cx"]
@@ -40,7 +40,7 @@ def collect_and_send_trade_data(company_name, company_boursier_url, company_symb
         print("Debug mode is enabled.")
 
     # Load configuration such as API keys from json file
-    with open('bourse.json', 'r') as config_file:
+    with open('settings.json', 'r') as config_file:
         data = json.load(config_file)
     alphavantage_api_key = data["config"]["alphavantage_api_key"]
     page2images_api_key = data["config"]["page2images_api_key"]
@@ -158,7 +158,7 @@ def collect_and_send_trade_data(company_name, company_boursier_url, company_symb
 def run_daily_task():
 
     # Load companies information from json file
-    f = open("bourse.json", "r")
+    f = open("settings.json", "r")
     data = json.load(f)
     for data in data["companies"]:
         company_name = data["name"]
