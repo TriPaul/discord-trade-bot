@@ -1,6 +1,6 @@
 # Discord Trade Bot
 
-![Bot Logo](bot.png)
+<img src="bot.png" alt="Bot Logo" width="300" height="200" />
 
 Welcome to the Discord Trade Bot repository ! This bot is designed to provide users with real-time stock market data directly within their Discord server. It allows users to fetch information about various stocks, including current prices, historical data, and more. This README will guide you through the setup and usage of the Discord Stock Bot.
 
@@ -9,7 +9,7 @@ Welcome to the Discord Trade Bot repository ! This bot is designed to provide us
 To get started with the Discord Trade Bot, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-```git clone https://github.com/TriPaul/discord-trade-bot```.git```
+```git clone https://github.com/TriPaul/discord-trade-bot.git```
 
 2. Navigate to the project directory:
 ```cd discord-trade-bot```
