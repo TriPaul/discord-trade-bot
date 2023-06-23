@@ -1,6 +1,6 @@
 # Discord Trade Bot
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
   <img src="bot.png" alt="Bot Logo" width="300" height="300" />
 </div>
 
